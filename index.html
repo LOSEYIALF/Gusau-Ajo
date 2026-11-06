@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gusau Ajo</title><style>
+body{font-family:sans-serif;background:#f4f4f4;margin:0;padding:20px}
+.card{background:#0B6E2F;color:#fff;padding:20px;border-radius:16px}
+button{background:#FFC107;border:0;padding:14px;width:100%;border-radius:12px;font-weight:bold;font-size:16px;margin-top:12px}
+.box{background:#fff;padding:16px;border-radius:12px;margin-top:12px}
+</style></head><body>
+<h2>Gusau Ajo - Save Small Small</h2>
+<div class="card"><p>Total Saved</p><h1>N15,000</h1><p>Goal: N30,000 - 50%</p></div>
+<div class="box"><h3>Daily N500 Group</h3><p>12 of 20 members - Payout: Tomorrow</p>
+<button onclick="save()">Save Today N500 with MiniPay</button>
+<p id="msg"></p></div>
+<div class="box"><h3>How it works</h3><p>1. Join group 2. Save daily with MiniPay (cUSD on Celo) 3. Collect your turn</p></div>
+<script>let total=15000;function save(){total+=500;document.getElementById('msg').innerText='Payment Successful! New Total: N'+total+' via MiniPay';}</script>
+</body></html>
